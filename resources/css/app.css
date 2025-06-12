@@ -1,11 +1,31 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
 @source '../**/*.js';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+
+        --font-
+
+    --font-source-sans: "Source Sans 3", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+    --color-warna-01: #ffef3b;
+    --color-warna-02: #f9c30c;
+    --color-warna-03: #ef8c3f;
+    --color-warna-04: #e9683c;
+    --color-warna-05: #e53e3a;
+    --container-md: 1200px;
+    --container-xl: 800rem;
+}
+
+@layer base{
+    body{
+        @apply text-[1.08rem] font-open-sans text-shadow-neutral-700 px-2 bg-slate-50
+    }
 }

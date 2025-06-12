@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-BWFQ4G6I.css",
+    "file": "assets/app-CD7SkqTf.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -8,6 +8,12 @@
     "file": "assets/app-T1DpEqax.js",
     "name": "app",
     "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/script_footer.js": {
+    "file": "assets/script_footer-BUP8LvmZ.js",
+    "name": "script_footer",
+    "src": "resources/js/script_footer.js",
     "isEntry": true
   }
 }
