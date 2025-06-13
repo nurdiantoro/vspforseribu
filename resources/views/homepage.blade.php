@@ -4,7 +4,8 @@
     <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 flex justify-center items-center">
             <div>
-                <h1 class="font-[Source_Sans_3] font-bold text-5xl text-warna-02">Vibiadhi Swasti Pradana<br />
+                <h1 class="font-[Source_Sans_3] font-bold text-5xl text-warna-02">Vibiadhi Swasti Pradana, B.Com,
+                    MTIM<br />
                     <span class="text-warna-04"> HIPMI Pulau Seribu</span>
                 </h1>
                 <div class="">Visioner. Synergy. Profesional.</div>

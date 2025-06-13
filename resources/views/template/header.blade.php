@@ -14,7 +14,6 @@
         rel="stylesheet">
 
     @vite('resources/css/app.css')
-    @vite('resources/js/script_header.js')
 </head>
 
 <body class="">
